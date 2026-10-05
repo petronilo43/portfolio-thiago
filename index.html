@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#e6e7ea" />
+    <title>Thiago Petronilo | Full-stack developer in training</title>
+    <meta
+      name="description"
+      content="Portfolio of Thiago Petronilo, a Creative Digital Computing student at TUS in Limerick working toward full-stack development."
+    />
+    <meta property="og:title" content="Thiago Petronilo | Full-stack developer in training" />
+    <meta
+      property="og:description"
+      content="Creative Digital Computing student at TUS in Limerick, working toward full-stack development."
+    />
+    <meta property="og:type" content="website" />
+    <script>
+      // Pick the theme before anything is drawn, so the page never flashes the wrong one:
+      // the visitor's saved choice if there is one, otherwise what their device prefers.
+      (function () {
+        var saved = null
+        try { saved = localStorage.getItem('theme') } catch (e) {}
+        var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light'
+      })()
+    </script>
+    <script type="module" crossorigin src="/assets/index-DCVrU0Eu.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-XjhfdiV4.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
